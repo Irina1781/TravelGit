@@ -3,7 +3,7 @@ services:
     container_name: postgres
     image: postgres:16.2-alpine3.19
     ports:
-      - 6666:5432
+      - 5432:5432
     environment:
       POSTGRES_DB: travel
       POSTGRES_USER: postgres
